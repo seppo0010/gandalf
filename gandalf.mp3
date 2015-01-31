@@ -1,0 +1,14 @@
+"$@"
+RET=$?
+if [ "$RET" != "0" ]; then
+    DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+    afplay "$DIR/gandalf.mp3" 2> /dev/null > /dev/null &
+    /usr/bin/env echo -n "You" >&2
+    sleep 2
+    /usr/bin/env echo -n " shall not" >&2
+    sleep 2
+    /usr/bin/env echo -n " pass" >&2
+    sleep 1
+    echo ""
+fi
+exit $RET
