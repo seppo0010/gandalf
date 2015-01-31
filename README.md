@@ -1,6 +1,6 @@
 # Gandalf
 
-![View in Action](http://youtu.be/tuHxEgEokHw)
+![View in Action](https://www.youtube.com/watch?v=tuHxEgEokHw)
 
 ## How to use
 
